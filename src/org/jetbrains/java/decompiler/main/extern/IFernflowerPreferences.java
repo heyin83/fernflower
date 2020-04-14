@@ -77,7 +77,7 @@ public interface IFernflowerPreferences {
     defaults.put(FINALLY_DEINLINE, "1");
     defaults.put(IDEA_NOT_NULL_ANNOTATION, "1");
     defaults.put(LAMBDA_TO_ANONYMOUS_CLASS, "0");
-    defaults.put(BYTECODE_SOURCE_MAPPING, "0");
+    defaults.put(BYTECODE_SOURCE_MAPPING, "1");
     defaults.put(IGNORE_INVALID_BYTECODE, "0");
     defaults.put(VERIFY_ANONYMOUS_CLASSES, "0");
 
@@ -88,7 +88,7 @@ public interface IFernflowerPreferences {
     defaults.put(INDENT_STRING, "   ");
     defaults.put(BANNER, "");
     defaults.put(UNIT_TEST_MODE, "0");
-    defaults.put(DUMP_ORIGINAL_LINES, "0");
+    defaults.put(DUMP_ORIGINAL_LINES, "1");
 
     return Collections.unmodifiableMap(defaults);
   }
